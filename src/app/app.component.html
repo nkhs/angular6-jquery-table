@@ -1,0 +1,38 @@
+<h3>Engine</h3>
+<button id="searchBtn">search</button>
+<input type="text" id="searchInput">
+<button id="addBtn">Add</button>
+<table id="example" class="stripe row-border order-column" style="width:100%">
+  
+  <thead>
+    <tr>
+      <th>Console</th>
+      <th>Engine Mode</th>
+      <th>Server Serial Number</th>
+      <th>Authorization Token</th>
+      <th>Reboot Frequency</th>
+      <th>Reboot Time</th>
+      <th>Server IP</th>
+      <th>Server </th>
+      <th>Server </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of list;let index = index">
+      <td>BR2016049</td>
+      <td>MUX25 - 25Mbit Muxer</td>
+      <td>96000000A5437490E2A200</td>
+      <td>29543</td>
+      <td>0-Daily</td>
+      <td>03:00 UTC</td>
+      <td>203.213.546.213</td>
+      <td>5421</td>
+      <td>t.nixon@datatables.net</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<div id="my_popup">
+  Dialog
+</div>

@@ -1,0 +1,7 @@
+#example_filter {
+  float: right;
+  text-align: right;
+  visibility: hidden;
+  display: none;
+  outline: 1px red solid;
+}

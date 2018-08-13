@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+#example_filter {
+    float: right;
+    text-align: right;
+    visibility: hidden;
+    display: none;
+    outline: 1px red solid;
+  }
+  
